@@ -1,3 +1,3 @@
-# AstroWebsite
+# Mohua Observator
 
-Website built for workmate for non profit astonomy group
+Website built for Mohua Observatory non profit astronomy group
