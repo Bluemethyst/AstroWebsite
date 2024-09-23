@@ -1,3 +1,11 @@
+# Mohua Observatory
+
+Website built for Mohua Observatory non profit astronomy group
+
+-   [ ] Speaker renting calendar, show when speaker is avalible and not avalible
+-   [ ] Speaker booking implementation, pricing TBC, evening more expensive
+-   [ ]
+
 # mohuaobservatory
 
 This template should help get you started developing with Vue 3 in Vite.

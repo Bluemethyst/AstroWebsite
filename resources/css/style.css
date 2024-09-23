@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+:root {
+  --background-color: #424242b8;
+  --text-color: #f0ffff;
+  --font: 'Nunito', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(assets/backg.jpg);
+  background-color: var(--background-color);
+  background-size: cover; 
+  font-family: var(--font);
+  color: var(--text-color);
+  justify-content: flex-start;
+  padding: 2em;
+  padding-bottom: 2em;
+}
+
+a:link {
+  color: var(--text-color); /* color for normal, unvisited links */
+}
+
+a:visited {
+  color: var(--text-color); /* color for visited links */
+}
+
+a:hover {
+  color: var(--text-color); /* color when mouse hovers over link */
+}
+
+a:active {
+  color: var(--text-color); /* color when link is clicked */
+}
+
+.main-box, .about {
+  width: 50%;
+  padding: 2em;
+  background-color: var(--background-color);
+  border-radius: 25px;
+  margin-bottom: 2em;
+}
+
+.github-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#showIframe {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #424242;
+  border: none;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+  color: var(--text-colors);
+  margin-bottom: 0.5em;
+  font-family: var(--font);
+}
+
+#showIframe:hover {
+  background-color: #787878;
+}
+
+footer {
+  background-color: var(--background-color);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0.2em 0;
+}
+
+
+
